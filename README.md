@@ -4,3 +4,7 @@ something new ^^
 # first commit
 
 hello
+
+# testing git diff
+
+:)
