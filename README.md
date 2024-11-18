@@ -6,5 +6,3 @@ something new ^^
 hello
 
 # testing git diff
-
-:)
