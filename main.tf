@@ -1,6 +1,13 @@
 provider "aws" {
   region = "eu-central-1"
 }
+terraform {
+  backend "s3" {
+    bucket = "my-terraform-state-bucket"
+    key    = "terraform.tfstate"
+    region = "eu-central-1"
+  }
+}
 
 resource "aws_s3_bucket" "example" {
   bucket = var.bucket_name
